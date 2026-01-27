@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { FadeIn } from '@/components/ui/fade-in';
 
 export default function BrandPhilosophy() {
@@ -87,9 +88,9 @@ export default function BrandPhilosophy() {
                 Cada planta es cultivada con dedicación y cuidado. Seleccionamos ejemplares saludables y robustos, garantizando que recibes especímenes de la más alta calidad para tu hogar.
               </p>
               <div className="pt-4">
-                <a href="/search" className="font-moderat inline-block text-white text-sm tracking-[0.2em] uppercase font-medium border-b-2 border-white/50 hover:border-white transition-colors pb-1">
+                <Link href="/search" className="font-moderat inline-block text-white text-sm tracking-[0.2em] uppercase font-medium border-b-2 border-white/50 hover:border-white transition-colors pb-1">
                   Explorar Plantas
-                </a>
+                </Link>
               </div>
             </div>
           </FadeIn>

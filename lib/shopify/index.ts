@@ -60,7 +60,7 @@ import {
   ShopifyRemoveFromCartOperation,
   ShopifyUpdateCartOperation,
   Metaobject,
-  MetaobjectField,
+  // MetaobjectField, // Comentado - no usado actualmente, necesario para funciones helper metaobject
   ShopifyMetaobjectOperation,
   ShopifyMetaobjectsOperation,
   HomeHero,
