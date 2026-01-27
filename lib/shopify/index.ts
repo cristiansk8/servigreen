@@ -519,6 +519,9 @@ export async function getPredictiveSearch(
 }
 
 // Metaobject helper functions
+// Nota: Estas funciones helper están comentadas temporalmente ya que no se usan en modo demo
+// Descomentar cuando se active la integración completa con metaobjects de Shopify
+/*
 function getMetaobjectFieldValue(fields: MetaobjectField[], key: string): string {
   const field = fields.find(f => f.key === key);
   return field?.value || '';
@@ -528,6 +531,7 @@ function getMetaobjectImageUrl(fields: MetaobjectField[], key: string): string {
   const field = fields.find(f => f.key === key);
   return field?.reference?.image?.url || '';
 }
+*/
 
 export async function getMetaobject(handle: string, type: string): Promise<Metaobject | null> {
   try {
