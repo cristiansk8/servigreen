@@ -105,11 +105,11 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
                   <div key={link.text} className="relative" ref={categoriesDropdownRef}>
                     <button
                       onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}
-                      className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group flex items-center gap-1 ${isScrolled || isSolidVariant ? 'text-black hover:text-[#5a8fa8]' : 'text-white hover:text-gray-200'}`}
+                      className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group flex items-center gap-1 ${isScrolled || isSolidVariant ? 'text-black hover:text-[#2d7a3e]' : 'text-white hover:text-gray-200'}`}
                     >
                       {link.text}
                       <ChevronDown className={`h-4 w-4 transition-transform duration-300 ${isCategoriesOpen ? 'rotate-180' : ''}`} />
-                      <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || isSolidVariant ? 'bg-[#5a8fa8]' : 'bg-white'}`}></span>
+                      <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || isSolidVariant ? 'bg-[#2d7a3e]' : 'bg-white'}`}></span>
                     </button>
 
                     {/* Dropdown de categorías */}
@@ -122,7 +122,7 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
                               <Link
                                 key={collection.handle}
                                 href={`/search/${collection.handle}`}
-                                className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#5a8fa8] rounded-md transition-colors"
+                                className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#2d7a3e] rounded-md transition-colors"
                                 onClick={() => setIsCategoriesOpen(false)}
                               >
                                 {collection.title}
@@ -134,9 +134,9 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
                     )}
                   </div>
                 ) : (
-                  <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-black hover:text-[#5a8fa8]' : 'text-white hover:text-gray-200'}`}>
+                  <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-black hover:text-[#2d7a3e]' : 'text-white hover:text-gray-200'}`}>
                     {link.text}
-                    <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || isSolidVariant ? 'bg-[#5a8fa8]' : 'bg-white'}`}></span>
+                    <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || isSolidVariant ? 'bg-[#2d7a3e]' : 'bg-white'}`}></span>
                   </Link>
                 )
               ))}
@@ -145,17 +145,9 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
             {/* Logo - Center */}
             <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none">
               <Link href="/" className="pointer-events-auto">
-                <Image
-                  src="/logo-juan-becerra.png"
-                  alt="Juan Becerra"
-                  width={128}
-                  height={128}
-                  className={`h-16 sm:h-20 lg:h-32 w-auto transition-all duration-500 object-contain ${
-                    isScrolled || isSolidVariant ? 'brightness-100' : 'brightness-0 invert'
-                  }`}
-                  priority
-                  loading="eager"
-                />
+                <div className="font-belleza text-2xl sm:text-3xl lg:text-4xl font-light tracking-wider transition-all duration-500">
+                  <span className={`${isScrolled || isSolidVariant ? 'text-[#2d7a3e]' : 'text-[#2d7a3e]'}`}>servi</span><span className={isScrolled || isSolidVariant ? 'text-gray-900' : 'text-white'}>green</span>
+                </div>
               </Link>
             </div>
 
@@ -163,9 +155,9 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
             <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8">
               <nav className="hidden lg:flex items-center space-x-8">
                 {navLinks.slice(2).map((link) => (
-                  <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-black hover:text-[#5a8fa8]' : 'text-white hover:text-gray-200'} ${link.highlight ? 'font-semibold' : 'font-medium'}`}>
+                  <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-black hover:text-[#2d7a3e]' : 'text-white hover:text-gray-200'} ${link.highlight ? 'font-semibold' : 'font-medium'}`}>
                     {link.text}
-                    <span className={`absolute bottom-0 left-0 h-0.5 transition-all duration-300 group-hover:w-full ${link.highlight ? 'w-full' : 'w-0'} ${isScrolled || isSolidVariant ? 'bg-[#5a8fa8]' : 'bg-white'}`}></span>
+                    <span className={`absolute bottom-0 left-0 h-0.5 transition-all duration-300 group-hover:w-full ${link.highlight ? 'w-full' : 'w-0'} ${isScrolled || isSolidVariant ? 'bg-[#2d7a3e]' : 'bg-white'}`}></span>
                   </Link>
                 ))}
               </nav>
@@ -245,13 +237,9 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
         }`}
       >
         <div className="flex items-center justify-between p-6 border-b">
-          <Image
-            src="/logo-juan-becerra.png"
-            alt="Juan Becerra"
-            width={64}
-            height={64}
-            className="w-auto"
-          />
+          <div className="font-belleza text-2xl font-light tracking-wider">
+            <span className="text-[#2d7a3e]">servi</span><span className="text-gray-900">green</span>
+          </div>
           <button
             onClick={() => setIsMobileMenuOpen(false)}
             className="p-2 hover:bg-gray-100 transition-colors"
@@ -266,7 +254,7 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
               <div key={link.text}>
                 <button
                   onClick={() => setIsMobileCategoriesOpen(!isMobileCategoriesOpen)}
-                  className="w-full flex items-center justify-between font-belleza text-xl tracking-wider hover:text-[#5a8fa8] transition-colors font-medium text-gray-900"
+                  className="w-full flex items-center justify-between font-belleza text-xl tracking-wider hover:text-[#2d7a3e] transition-colors font-medium text-gray-900"
                   style={{
                     animation: isMobileMenuOpen ? `fadeInStagger 0.4s ease-out ${index * 0.1}s both` : 'none'
                   }}
@@ -282,7 +270,7 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
                       <Link
                         key={collection.handle}
                         href={`/search/${collection.handle}`}
-                        className="block text-base text-gray-600 hover:text-[#5a8fa8] transition-colors"
+                        className="block text-base text-gray-600 hover:text-[#2d7a3e] transition-colors"
                         onClick={() => {
                           setIsMobileMenuOpen(false);
                           setIsMobileCategoriesOpen(false);
@@ -298,7 +286,7 @@ export default function NavbarIntegrated({ variant = 'transparent', collections 
               <Link
                 key={link.text}
                 href={link.href}
-                className={`font-belleza text-xl tracking-wider hover:text-[#5a8fa8] transition-colors ${link.highlight ? 'font-semibold text-[#5a8fa8]' : 'font-medium text-gray-900'}`}
+                className={`font-belleza text-xl tracking-wider hover:text-[#2d7a3e] transition-colors ${link.highlight ? 'font-semibold text-[#2d7a3e]' : 'font-medium text-gray-900'}`}
                 onClick={() => setIsMobileMenuOpen(false)}
                 style={{
                   animation: isMobileMenuOpen ? `fadeInStagger 0.4s ease-out ${index * 0.1}s both` : 'none'

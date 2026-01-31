@@ -18,7 +18,7 @@ function SubmitButton({
   const baseClasses =
     'font-moderat w-full flex items-center justify-center gap-3 px-8 py-4 text-sm tracking-[0.15em] uppercase font-medium transition-all duration-300';
 
-  const enabledClasses = 'bg-[#5a8fa8] text-white hover:bg-[#4a7a92]';
+  const enabledClasses = 'bg-[#2d7a3e] text-white hover:bg-[#1e5a2a]';
   const disabledClasses = 'bg-gray-300 text-gray-500 cursor-not-allowed';
 
   if (!availableForSale) {

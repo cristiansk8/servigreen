@@ -15,7 +15,7 @@ const AnnouncementBar = ({
   }
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-[60] bg-[#5a8fa8] text-white text-sm font-light h-[38px] w-full overflow-hidden">
+    <div className="fixed top-0 left-0 right-0 z-[60] bg-[#2d7a3e] text-white text-sm font-light h-[38px] w-full overflow-hidden">
       <div className="h-full flex justify-center items-center text-center px-4 max-w-7xl mx-auto">
         <div className="flex items-center gap-2 flex-wrap justify-center">
           <span role="img" aria-label="announcement" className="text-base">🎉</span>

@@ -105,7 +105,7 @@ export default function SeasonalBanner({ slides = defaultSlides }: SeasonalBanne
                   {slide.buttonText && slide.href && (
                     <a
                       href={slide.href}
-                      className="group inline-flex items-center justify-center gap-3 font-moderat bg-[#5a8fa8] text-white px-8 sm:px-10 py-4 text-sm sm:text-base tracking-[0.15em] uppercase font-semibold hover:bg-[#4a7a92] transition-all duration-300 shadow-lg"
+                      className="group inline-flex items-center justify-center gap-3 font-moderat bg-[#2d7a3e] text-white px-8 sm:px-10 py-4 text-sm sm:text-base tracking-[0.15em] uppercase font-semibold hover:bg-[#1e5a2a] transition-all duration-300 shadow-lg"
                     >
                       {slide.buttonText}
                       <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -193,11 +193,14 @@ export default function CategorySectionDynamic({ collections }: CategorySectionD
               Explora más
             </h2>
             <Image
-              src="/toro-juan-becerra.png"
-              alt="Logo Toro Juan Becerra"
+              src="/logo-servigreen.png"
+              alt="Logo Servigreen"
               width={160}
               height={160}
-              className="w-auto mb-4 filter brightness-0 invert mx-auto lg:mx-0"
+              className="w-auto mb-4 mx-auto lg:mx-0"
+              style={{
+                filter: 'brightness(0) invert(1)'
+              }}
             />
           </div>
 

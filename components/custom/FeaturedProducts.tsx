@@ -249,7 +249,7 @@ export default function FeaturedProducts({ products }: FeaturedProductsProps) {
             </p>
             <Link
               href="/search"
-              className="inline-flex items-center justify-center font-moderat bg-[#5a8fa8] text-white text-sm tracking-[0.15em] uppercase font-medium px-8 py-3 hover:bg-[#4a7a92] transition-all duration-300"
+              className="inline-flex items-center justify-center font-moderat bg-[#2d7a3e] text-white text-sm tracking-[0.15em] uppercase font-medium px-8 py-3 hover:bg-[#1e5a2a] transition-all duration-300"
             >
               Ver Todos
             </Link>

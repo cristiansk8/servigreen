@@ -44,8 +44,8 @@ export default function Newsletter() {
       )}
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 bg-[#5a8fa8]/10 mb-6">
-          <Mail className="h-8 w-8 text-[#5a8fa8]" />
+        <div className="inline-flex items-center justify-center w-16 h-16 bg-[#2d7a3e]/10 mb-6">
+          <Mail className="h-8 w-8 text-[#2d7a3e]" />
         </div>
 
         <h2 className="font-belleza text-2xl sm:text-3xl lg:text-5xl font-light tracking-wide mb-6 leading-tight text-gray-900">
@@ -65,13 +65,13 @@ export default function Newsletter() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Ingresa tu email"
-              className="font-moderat flex-auto border border-gray-300 bg-white px-5 py-3.5 text-gray-900 placeholder:text-gray-400 focus:border-[#5a8fa8] focus:ring-2 focus:ring-[#5a8fa8] focus:outline-none transition-all duration-300 text-base"
+              className="font-moderat flex-auto border border-gray-300 bg-white px-5 py-3.5 text-gray-900 placeholder:text-gray-400 focus:border-[#2d7a3e] focus:ring-2 focus:ring-[#2d7a3e] focus:outline-none transition-all duration-300 text-base"
             />
             <button
               type="button"
               onClick={handleSubmit}
               disabled={isSubmitting}
-              className="font-moderat flex-none bg-[#5a8fa8] px-8 py-3.5 text-sm tracking-[0.15em] uppercase font-medium text-white hover:bg-[#4a7a92] focus:outline-none focus:ring-2 focus:ring-[#5a8fa8] focus:ring-offset-2 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-300"
+              className="font-moderat flex-none bg-[#2d7a3e] px-8 py-3.5 text-sm tracking-[0.15em] uppercase font-medium text-white hover:bg-[#1e5a2a] focus:outline-none focus:ring-2 focus:ring-[#2d7a3e] focus:ring-offset-2 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-300"
             >
               {isSubmitting ? 'Enviando...' : 'Suscribirse'}
             </button>

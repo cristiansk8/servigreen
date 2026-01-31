@@ -31,6 +31,11 @@ export const metadata = {
     default: siteName,
     template: `%s | ${siteName}`
   },
+  icons: {
+    icon: '/favicon.jpg',
+    shortcut: '/favicon.jpg',
+    apple: '/favicon.jpg'
+  },
   robots: {
     follow: true,
     index: true
@@ -38,7 +43,7 @@ export const metadata = {
 };
 
 export const viewport = {
-  themeColor: '#000000'
+  themeColor: '#2d7a3e'
 };
 
 export default async function RootLayout({

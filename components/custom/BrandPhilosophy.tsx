@@ -25,7 +25,7 @@ export default function BrandPhilosophy() {
         <div className="bg-[#f8f7f4] flex items-center justify-center p-8 sm:p-12 lg:p-16 xl:p-24">
           <FadeIn delay={0.2} direction="left">
             <div className="max-w-lg space-y-6">
-              <p className="text-[#5a8fa8] text-xs tracking-[0.3em] uppercase font-medium mb-6">
+              <p className="text-[#2d7a3e] text-xs tracking-[0.3em] uppercase font-medium mb-6">
                 Nuestra Filosofía
               </p>
               <p className="text-gray-700 text-base sm:text-lg leading-relaxed font-light">
@@ -75,7 +75,7 @@ export default function BrandPhilosophy() {
       {/* Bottom Editorial Image */}
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Contenido Izquierda */}
-        <div className="bg-[#5a8fa8] text-white flex items-center justify-center p-8 sm:p-12 lg:p-16 xl:p-24 order-2 lg:order-1">
+        <div className="bg-[#2d7a3e] text-white flex items-center justify-center p-8 sm:p-12 lg:p-16 xl:p-24 order-2 lg:order-1">
           <FadeIn delay={0.2} direction="right">
             <div className="max-w-lg space-y-6">
               <p className="text-white/70 text-xs tracking-[0.3em] uppercase font-medium">

@@ -20,9 +20,9 @@ function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) 
     <div className="border-b border-gray-200">
       <button
         onClick={onClick}
-        className="w-full flex items-center justify-between py-5 text-left transition-colors hover:text-[#5a8fa8] group"
+        className="w-full flex items-center justify-between py-5 text-left transition-colors hover:text-[#2d7a3e] group"
       >
-        <span className="font-moderat text-sm uppercase tracking-wider font-medium text-gray-900 group-hover:text-[#5a8fa8] transition-colors">
+        <span className="font-moderat text-sm uppercase tracking-wider font-medium text-gray-900 group-hover:text-[#2d7a3e] transition-colors">
           {title}
         </span>
         <span className={`text-gray-400 text-xl font-light transition-all duration-300 ${isOpen ? 'rotate-45' : 'rotate-0'}`}>

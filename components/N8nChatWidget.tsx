@@ -14,7 +14,7 @@ export default function N8nChatWidget() {
       {/* Botón flotante - Lado izquierdo */}
       <button
         onClick={toggleChat}
-        className="fixed bottom-6 left-6 z-[9999] flex items-center gap-2 bg-[#620c0b] hover:bg-[#4a0909] text-white border-none rounded-full px-5 py-3 shadow-lg transition-all duration-300 hover:scale-105"
+        className="fixed bottom-6 left-6 z-[9999] flex items-center gap-2 bg-[#2d7a3e] hover:bg-[#1e5a2a] text-white border-none rounded-full px-5 py-3 shadow-lg transition-all duration-300 hover:scale-105"
         aria-label={visible ? "Cerrar chat" : "Abrir chat de asistencia"}
       >
         {visible ? (

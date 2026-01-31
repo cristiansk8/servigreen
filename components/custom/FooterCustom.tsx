@@ -40,15 +40,23 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand & Description */}
           <div className="lg:col-span-1">
-            <Image
-              src="/toro-juan-becerra.png"
-              alt="Juan Becerra"
-              width={168}
-              height={168}
-              className="w-auto mb-4 filter brightness-0 invert"
-            />
+            <div className="flex items-center gap-4 mb-4">
+              <div className="font-belleza text-3xl font-light tracking-wider">
+                <span className="text-[#2d7a3e]">servi</span><span className="text-white">green</span>
+              </div>
+              <Image
+                src="/logo-servigreen.png"
+                alt="Logo Servigreen"
+                width={80}
+                height={80}
+                className="w-auto h-12 object-contain"
+                style={{
+                  filter: 'brightness(0) invert(1)'
+                }}
+              />
+            </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Todos nuestros productos son diseñados y creados 100% en Colombia.
+              Vivero botánico especializado en bonsais y plantas de colección. Transformamos espacios con naturaleza.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/juanbecerrabelts/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
@@ -132,7 +140,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Juan Becerra. Tecnología de Shopify.
+              © {new Date().getFullYear()} servigreen. Vivero botánico.
             </p>
             <div className="flex space-x-6">
               <span className="text-gray-400 text-sm">

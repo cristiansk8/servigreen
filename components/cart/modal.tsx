@@ -266,7 +266,7 @@ function CheckoutButton() {
 
   return (
     <button
-      className="font-moderat block w-full bg-[#5a8fa8] p-3 text-center text-sm font-medium text-white hover:bg-[#4a7a92] transition-colors duration-300 tracking-wide uppercase disabled:opacity-50"
+      className="font-moderat block w-full bg-[#2d7a3e] p-3 text-center text-sm font-medium text-white hover:bg-[#1e5a2a] transition-colors duration-300 tracking-wide uppercase disabled:opacity-50"
       onClick={handleCheckout}
       disabled={isPending}
     >
