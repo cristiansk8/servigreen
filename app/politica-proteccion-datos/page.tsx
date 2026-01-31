@@ -2,8 +2,8 @@ import React from 'react';
 import FooterCustom from '@/components/custom/FooterCustom';
 
 export const metadata = {
-  title: 'Política de Protección de Datos | Juan Becerra',
-  description: 'Conoce cómo protegemos tus datos personales en Juan Becerra. Política de privacidad y tratamiento de datos.'
+  title: 'Política de Protección de Datos | servigreen',
+  description: 'Conoce cómo protegemos tus datos personales en servigreen. Política de privacidad y tratamiento de datos.'
 };
 
 export default function PoliticaProteccionDatos() {
@@ -21,7 +21,7 @@ export default function PoliticaProteccionDatos() {
 
         <div className="text-gray-600">
           <p className="mb-6">
-            JUAN BECERRA, en cumplimiento de la Ley 1581 de 2012 y el Decreto 1377 de 2013, ha establecido esta Política de Tratamiento de Datos Personales para informar a nuestros clientes y usuarios sobre el manejo de su información personal.
+            servigreen, en cumplimiento de la Ley 1581 de 2012 y el Decreto 1377 de 2013, ha establecido esta Política de Tratamiento de Datos Personales para informar a nuestros clientes y usuarios sobre el manejo de su información personal.
           </p>
 
           <section className="mb-8">
@@ -29,19 +29,19 @@ export default function PoliticaProteccionDatos() {
               RESPONSABLE DEL TRATAMIENTO
             </h2>
             <p className="mb-4">
-              <strong>Razón Social:</strong> JUAN BECERRA
+              <strong>Razón Social:</strong> servigreen
             </p>
             <p className="mb-4">
               <strong>Domicilio:</strong> Colombia
             </p>
             <p className="mb-4">
-              <strong>Correo electrónico:</strong> juanbecerracolombia@gmail.com
+              <strong>Correo electrónico:</strong> soporte@servigreen.com
             </p>
             <p className="mb-4">
               <strong>Teléfono:</strong> +57 317 272 7916
             </p>
             <p className="mb-4">
-              <strong>Sitio web:</strong> www.juanbecerra.co
+              <strong>Sitio web:</strong> www.servigreen.com
             </p>
           </section>
 
@@ -50,7 +50,7 @@ export default function PoliticaProteccionDatos() {
               DATOS PERSONALES QUE RECOPILAMOS
             </h2>
             <p className="mb-4">
-              JUAN BECERRA puede recopilar los siguientes tipos de información personal:
+              servigreen puede recopilar los siguientes tipos de información personal:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
               <li><strong>Datos de identificación:</strong> Nombre completo, número de identificación, fecha de nacimiento</li>
@@ -107,7 +107,7 @@ export default function PoliticaProteccionDatos() {
               Para ejercer sus derechos sobre datos personales, puede contactarnos a través de:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
-              <li>Correo electrónico: juanbecerracolombia@gmail.com</li>
+              <li>Correo electrónico: soporte@servigreen.com</li>
               <li>WhatsApp: +57 317 272 7916</li>
             </ul>
             <p className="mb-4">
@@ -120,7 +120,7 @@ export default function PoliticaProteccionDatos() {
               SEGURIDAD DE LA INFORMACIÓN
             </h2>
             <p className="mb-4">
-              JUAN BECERRA implementa medidas técnicas, humanas y administrativas para proteger la información personal contra pérdida, robo, acceso no autorizado, divulgación, copia, uso o modificación.
+              servigreen implementa medidas técnicas, humanas y administrativas para proteger la información personal contra pérdida, robo, acceso no autorizado, divulgación, copia, uso o modificación.
             </p>
             <p className="mb-4">
               Nuestra plataforma utiliza protocolos de seguridad como SSL/TLS para cifrar la información transmitida entre su navegador y nuestros servidores. Los datos de pago son procesados a través de plataformas seguras que cumplen con los estándares PCI DSS.
@@ -132,7 +132,7 @@ export default function PoliticaProteccionDatos() {
               TRANSFERENCIA Y TRANSMISIÓN DE DATOS
             </h2>
             <p className="mb-4">
-              JUAN BECERRA podrá transferir o transmitir datos personales a terceros cuando:
+              servigreen podrá transferir o transmitir datos personales a terceros cuando:
             </p>
             <ul className="list-disc pl-6 mb-4 space-y-2">
               <li>Sea necesario para cumplir con el objeto de la relación comercial (ej: empresas de mensajería para envíos)</li>
@@ -168,7 +168,7 @@ export default function PoliticaProteccionDatos() {
               MENORES DE EDAD
             </h2>
             <p className="mb-4">
-              Los servicios de JUAN BECERRA están dirigidos a personas mayores de 18 años. No recopilamos intencionalmente información de menores de edad. Si un padre o tutor identifica que un menor ha proporcionado información sin su consentimiento, debe contactarnos inmediatamente para que procedamos con su eliminación.
+              Los servicios de servigreen están dirigidos a personas mayores de 18 años. No recopilamos intencionalmente información de menores de edad. Si un padre o tutor identifica que un menor ha proporcionado información sin su consentimiento, debe contactarnos inmediatamente para que procedamos con su eliminación.
             </p>
           </section>
 
@@ -177,7 +177,7 @@ export default function PoliticaProteccionDatos() {
               MODIFICACIONES A LA POLÍTICA
             </h2>
             <p className="mb-4">
-              JUAN BECERRA se reserva el derecho de modificar esta Política de Protección de Datos en cualquier momento. Los cambios significativos serán comunicados a través de nuestra página web o por correo electrónico. Se recomienda revisar periódicamente esta política para estar informado sobre cómo protegemos su información.
+              servigreen se reserva el derecho de modificar esta Política de Protección de Datos en cualquier momento. Los cambios significativos serán comunicados a través de nuestra página web o por correo electrónico. Se recomienda revisar periódicamente esta política para estar informado sobre cómo protegemos su información.
             </p>
           </section>
 
@@ -189,7 +189,7 @@ export default function PoliticaProteccionDatos() {
               Para cualquier consulta, duda o solicitud relacionada con el tratamiento de sus datos personales, puede contactarnos:
             </p>
             <ul className="list-none mb-4 space-y-2">
-              <li><strong>Email:</strong> juanbecerracolombia@gmail.com</li>
+              <li><strong>Email:</strong> soporte@servigreen.com</li>
               <li><strong>WhatsApp:</strong> +57 317 272 7916</li>
               <li><strong>Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</li>
             </ul>

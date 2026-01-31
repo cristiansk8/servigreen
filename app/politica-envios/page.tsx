@@ -2,7 +2,7 @@ import React from 'react';
 import FooterCustom from '@/components/custom/FooterCustom';
 
 export const metadata = {
-  title: 'Política de Envíos | Juan Becerra',
+  title: 'Política de Envíos | servigreen',
   description: 'Conoce nuestra política de envíos, tiempos de entrega y cobertura en Colombia.'
 };
 
@@ -21,7 +21,7 @@ export default function PoliticaEnvios() {
 
         <div className="text-gray-600">
           <p className="mb-6">
-            En JUAN BECERRA nos comprometemos a entregar tus productos de manera segura y oportuna. Esta política describe nuestros tiempos de procesamiento, costos de envío y cobertura.
+            En servigreen nos comprometemos a entregar tus plantas y productos de manera segura y oportuna. Esta política describe nuestros tiempos de procesamiento, costos de envío y cobertura.
           </p>
 
           <section className="mb-8">
@@ -167,7 +167,7 @@ export default function PoliticaEnvios() {
               <li>Nombre completo de quien recibirá el pedido</li>
             </ul>
             <p className="mb-4">
-              JUAN BECERRA no se hace responsable por entregas fallidas debido a información incorrecta o incompleta proporcionada por el cliente.
+              servigreen no se hace responsable por entregas fallidas debido a información incorrecta o incompleta proporcionada por el cliente.
             </p>
           </section>
 
@@ -229,7 +229,7 @@ export default function PoliticaEnvios() {
             </p>
             <ul className="list-none mb-4 space-y-2">
               <li><strong>WhatsApp:</strong> +57 317 272 7916</li>
-              <li><strong>Email:</strong> juanbecerracolombia@gmail.com</li>
+              <li><strong>Email:</strong> soporte@servigreen.com</li>
               <li><strong>Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</li>
             </ul>
           </section>

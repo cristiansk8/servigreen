@@ -2,8 +2,8 @@ import React from 'react';
 import FooterCustom from '@/components/custom/FooterCustom';
 
 export const metadata = {
-  title: 'Términos del servicio | Juan Becerra',
-  description: 'Conoce nuestros términos del servicio y condiciones de uso de la tienda Juan Becerra.'
+  title: 'Términos del servicio | servigreen',
+  description: 'Conoce nuestros términos del servicio y condiciones de uso de la tienda servigreen.'
 };
 
 export default function TerminosDelServicio() {
@@ -22,7 +22,7 @@ export default function TerminosDelServicio() {
 
         <div className="text-gray-600">
           <p className="mb-6">
-            JUAN BECERRA, se dedica a la producción y comercialización de ropa exterior y accesorios para hombres y mujeres a través de distintos canales. Estos términos rigen exclusivamente para las compras que se hagan directamente en la tienda online www.juanbecerra.co
+            servigreen, se dedica a la comercialización de bonsais, plantas ornamentales y productos de jardinería a través de distintos canales. Estos términos rigen exclusivamente para las compras que se hagan directamente en la tienda online www.servigreen.com
           </p>
 
           <p className="mb-6">
@@ -41,7 +41,7 @@ export default function TerminosDelServicio() {
               Para realizar una compra el usuario o cliente deberá registrarse en la página y autorizar la política de tratamiento de datos personales. Luego de registrarse, este podrá celebrar relaciones de consumo de los productos exhibidos en el portal o plataforma.
             </p>
             <p className="mb-4">
-              En caso de crear una cuenta, ésta permanecerá activa hasta que el usuario la cancele o en su defecto cuando JUAN BECERRA considere que se está haciendo mal uso de ella. La plataforma de pagos habilitada es Mercado Pago.
+              En caso de crear una cuenta, ésta permanecerá activa hasta que el usuario la cancele o en su defecto cuando servigreen considere que se está haciendo mal uso de ella. La plataforma de pagos habilitada es Mercado Pago.
             </p>
           </section>
 
@@ -53,7 +53,7 @@ export default function TerminosDelServicio() {
               El consumidor podrá hacer uso del derecho de retracto contenido en el estatuto del consumidor. El término máximo para ejercer el derecho de retracto será de cinco (5) días hábiles contados a partir de la entrega.
             </p>
             <p className="mb-4">
-              El consumidor deberá devolver el producto a JUAN BECERRA por los mismos medios y en las mismas condiciones en que lo recibió. Los costos de transporte y los demás que conlleve la devolución del producto serán cubiertos por el consumidor.
+              El consumidor deberá devolver el producto a servigreen por los mismos medios y en las mismas condiciones en que lo recibió. Los costos de transporte y los demás que conlleve la devolución del producto serán cubiertos por el consumidor.
             </p>
           </section>
 
@@ -83,7 +83,7 @@ export default function TerminosDelServicio() {
               PROPIEDAD INTELECTUAL Y DERECHOS DE AUTOR
             </h2>
             <p className="mb-4">
-              Todas las marcas, logos, nombres y otros signos distintivos, así como los diseños y demás elementos de propiedad intelectual o industrial insertados y usados en esta página son Propiedad exclusiva de JUAN BECERRA.
+              Todas las marcas, logos, nombres y otros signos distintivos, así como los diseños y demás elementos de propiedad intelectual o industrial insertados y usados en esta página son Propiedad exclusiva de servigreen.
             </p>
           </section>
 
@@ -92,7 +92,7 @@ export default function TerminosDelServicio() {
               QUEJAS Y RECLAMOS
             </h2>
             <p className="mb-4">
-              JUAN BECERRA ha dispuesto diferentes canales de atención para atender las peticiones, quejas y reclamos de sus usuarios de manera exitosa. Puedes comunicarte con nosotros a través de WhatsApp, correo o por medio de nuestro formulario de contacto.
+              servigreen ha dispuesto diferentes canales de atención para atender las peticiones, quejas y reclamos de sus usuarios de manera exitosa. Puedes comunicarte con nosotros a través de WhatsApp, correo o por medio de nuestro formulario de contacto.
             </p>
           </section>
         </div>
