@@ -579,7 +579,7 @@ export async function getHomeHero(): Promise<HomeHero | null> {
     buttonText: 'Ver Productos',
     buttonText2: 'Conócenos',
     buttonUrl: '/search',
-    buttonUrl2: '/pages/about-us'
+    buttonUrl2: '/#filosofia'
   };
 }
 

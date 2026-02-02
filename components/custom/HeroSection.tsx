@@ -99,12 +99,20 @@ export default function HeroSection({
           </a>
 
           {/* Botón secundario - Minimal outline */}
-          <a
-            href={buttonUrl2}
-            className="inline-flex items-center gap-3 text-white text-sm sm:text-base tracking-[0.15em] uppercase font-light border border-white/50 px-8 py-3 hover:bg-white hover:text-black transition-all duration-300"
+          <button
+            onClick={() => {
+              if (buttonUrl2?.startsWith('/#')) {
+                const id = buttonUrl2.substring(2);
+                const element = document.getElementById(id);
+                element?.scrollIntoView({ behavior: 'smooth' });
+              } else if (buttonUrl2) {
+                window.location.href = buttonUrl2;
+              }
+            }}
+            className="inline-flex items-center gap-3 text-white text-sm sm:text-base tracking-[0.15em] uppercase font-light border border-white/50 px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"
           >
             {buttonText2}
-          </a>
+          </button>
         </div>
       </div>
 

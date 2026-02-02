@@ -15,7 +15,6 @@ import SearchComponent from 'components/layout/navbar/search';
 const navLinks = [
   { href: "/search/todos", text: "Tienda", highlight: false, hasDropdown: false },
   { href: "/search", text: "Categorías", highlight: false, hasDropdown: true },
-  { href: "/search/billeteras-tarjeteros", text: "Accesorios", highlight: false, hasDropdown: false },
   { href: "/search/todos", text: "Sale", highlight: true, hasDropdown: false },
 ];
 

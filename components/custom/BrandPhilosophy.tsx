@@ -6,7 +6,7 @@ import { FadeIn } from '@/components/ui/fade-in';
 
 export default function BrandPhilosophy() {
   return (
-    <div>
+    <div id="filosofia">
 
       {/* Split Editorial Content */}
       <div className="grid grid-cols-1 lg:grid-cols-2">
