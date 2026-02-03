@@ -1,6 +1,15 @@
 import { withSentryConfig } from '@sentry/nextjs';
 
 const nextConfig = {
+  // Optimize JavaScript for modern browsers - NO TRANSPILE for ES6+
+  // This eliminates unnecessary polyfills and transforms
+  transpilePackages: [],
+
+  // Optimize JavaScript for modern browsers
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+
   images: {
     remotePatterns: [
       {
@@ -15,6 +24,13 @@ const nextConfig = {
       }
     ]
   },
+
+  // Experimental features for performance
+  experimental: {
+    // Optimize package imports
+    optimizePackageImports: ['lucide-react'],
+  },
+
   async headers() {
     return [
       {
