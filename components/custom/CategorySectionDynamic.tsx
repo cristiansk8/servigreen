@@ -228,7 +228,7 @@ export default function CategorySectionDynamic({ collections }: CategorySectionD
                       <div className="relative aspect-[4/6] w-full overflow-hidden bg-gray-200 rounded-sm">
                           <Image
                             src={category.imageSrc}
-                            alt={category.title}
+                            alt={`Categoría ${category.title} - Explora productos de ${category.title} en servigreen`}
                             fill
                             className="object-cover object-center group-hover:scale-110 transition-transform duration-700"
                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"

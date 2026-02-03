@@ -14,11 +14,11 @@ type HeroSectionProps = {
 };
 
 export default function HeroSection({
-  title = 'BLACK DAYS JUAN BECERRA',
-  description = 'Hasta 50% OFF. Es el momento para llevarte tus favoritos.\nVÁLIDO DEL 28 NOV HASTA EL 1 DIC',
+  title = 'BIENVENIDOS A SERVIGREEN',
+  description = 'Descubre nuestra selección de plantas, bonsáis y productos de jardinería.\nTransforma tu espacio con naturaleza.',
   image = '/black-days-banner.webp',
   buttonText = 'Explorar productos',
-  buttonText2 = 'Ver descuentos',
+  buttonText2 = 'Ver categorías',
   buttonUrl = '/search/todos',
   buttonUrl2 = '/search/todos'
 }: HeroSectionProps) {
@@ -46,7 +46,7 @@ export default function HeroSection({
         >
           <Image
             src={image}
-            alt={`Banner Juan Becerra - ${title}`}
+            alt={`Banner servigreen - ${title}`}
             fill
             className="object-cover"
             priority

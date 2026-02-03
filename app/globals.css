@@ -4,10 +4,10 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  /* === Paleta de Marca - Juan Becerra === */
-  --brand-primary: #000000; /* Negro elegante */
+  /* === Paleta de Marca - servigreen === */
+  --brand-primary: #2d7a3e; /* Verde principal */
   --brand-secondary: #FFFFFF; /* Blanco puro */
-  --brand-accent: #C0A080; /* Beige/Dorado para elegancia */
+  --brand-accent: #1e5a2a; /* Verde oscuro */
   --brand-neutral: #F3F4F6; /* Gris claro para fondos (Tailwind gray-100) */
   --brand-text: #6B7280; /* Gris neutro para texto (Tailwind gray-500) */
 

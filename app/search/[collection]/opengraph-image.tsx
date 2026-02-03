@@ -13,7 +13,9 @@ export default async function Image({ params }: { params: { collection: string }
     const font = new Uint8Array(fontBuffer).buffer;
     return await OpengraphImage({ title, font });
   } catch (error) {
-    console.error('Error generating OpenGraph image:', error);
+    if (process.env.NODE_ENV === 'development') {
+      console.error('Error generating OpenGraph image:', error);
+    }
     throw error;
   }
 }

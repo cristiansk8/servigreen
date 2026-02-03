@@ -63,7 +63,7 @@ export function generateProductJsonLd(product: Product, url: string) {
     sku: product.id,
     brand: {
       '@type': 'Brand',
-      name: process.env.COMPANY_NAME || 'Juan Becerra'
+      name: process.env.COMPANY_NAME || 'servigreen'
     }
   };
 
@@ -98,12 +98,12 @@ export function generateOrganizationJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: process.env.COMPANY_NAME || 'Juan Becerra',
+    name: process.env.COMPANY_NAME || 'servigreen',
     url: baseUrl,
-    logo: `${baseUrl}/logo-juan-becerra.png`,
-    description: 'Marroquinería de lujo y accesorios de cuero premium',
+    logo: `${baseUrl}/logo.png`,
+    description: 'Vivero de plantas, bonsáis y productos de jardinería',
     sameAs: [
-      // Agregar redes sociales aquí
+      'https://www.instagram.com/servigreen.sa/'
     ]
   };
 }
@@ -116,7 +116,7 @@ export function generateWebsiteJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: process.env.SITE_NAME || 'Juan Becerra',
+    name: process.env.SITE_NAME || 'servigreen',
     url: baseUrl,
     potentialAction: {
       '@type': 'SearchAction',

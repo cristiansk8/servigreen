@@ -24,18 +24,18 @@ const defaultSlides: Slide[] = [
     id: '1',
     image: '/nueva-coleccion-banner.jpg',
     tag: 'Descubre lo nuevo',
-    title: 'NUEVA COLECCIÓN',
-    subtitle: 'Nos inspiramos en la elegancia de siempre, pero la adaptamos a la vida de hoy.',
-    buttonText: 'Descubre la colección',
+    title: 'NUEVAS PLANTAS',
+    subtitle: 'Explora nuestra selección recién llegada de plantas exóticas y bonsáis.',
+    buttonText: 'Ver catálogo',
     href: '/search/new',
   },
   {
     id: '2',
     image: '/cinturones.webp',
-    tag: 'Accesorios Premium',
-    title: 'Accesorios que Dejan Huella',
-    subtitle: 'Eleva tu look con nuestros cinturones y billeteras de cuero genuino.',
-    buttonText: 'Explorar Accesorios',
+    tag: 'Jardinería Premium',
+    title: 'Transforma tu Espacio',
+    subtitle: 'Descubre herramientas y accesorios para crear el jardín de tus sueños.',
+    buttonText: 'Explorar productos',
     href: '/search/accesorios',
   },
 ];
@@ -65,7 +65,7 @@ export default function SeasonalBanner({ slides = defaultSlides }: SeasonalBanne
               {slide.image && (
                 <Image
                   src={slide.image}
-                  alt={slide.title || 'Banner'}
+                  alt={`${slide.title} - ${slide.subtitle || 'Banner promocional de servigreen'}`}
                   fill
                   className="object-cover"
                   priority

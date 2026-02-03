@@ -27,7 +27,7 @@ export async function Carousel() {
             >
               <div className="relative aspect-square h-full w-full">
                 <GridTileImage
-                  alt={product.title}
+                  alt={`${product.title} - Producto destacado en servigreen`}
                   src={product.featuredImage?.url}
                 />
               </div>

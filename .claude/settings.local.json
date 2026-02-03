@@ -4,7 +4,11 @@
       "Bash(npm i:*)",
       "Bash(npm run build)",
       "Bash(git push:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(del:*)"
     ]
   }
 }

@@ -59,13 +59,13 @@ export default function Footer() {
               Vivero botánico especializado en bonsais y plantas de colección. Transformamos espacios con naturaleza.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/juanbecerrabelts/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="https://www.instagram.com/juanbecerra.co/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.instagram.com/servigreen.sa/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://www.linkedin.com/company/juanbecerrabelts/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -126,8 +126,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gray-400 flex-shrink-0" />
-                <a href="mailto:Juanbecerracolombia@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Juanbecerracolombia@gmail.com
+                <a href="mailto:soporte@servigreen.com" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  soporte@servigreen.com
                 </a>
               </div>
             </div>

@@ -89,7 +89,7 @@ export default async function ProductPage(props: { params: Promise<{ handle: str
       <TrackRecentlyViewed product={product} />
       <AnnouncementBar />
 
-      {/* Product Detail Section - Diseño Versace con identidad Juan Becerra */}
+      {/* Product Detail Section - Diseño elegante con identidad servigreen */}
       <div className="bg-white pt-32 pb-16">
         <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
           {/* Breadcrumbs */}

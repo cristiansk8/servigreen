@@ -186,7 +186,7 @@ export default function FeaturedProducts({ products }: FeaturedProductsProps) {
                       <div className="relative aspect-[3/4] w-full overflow-hidden bg-white rounded-sm">
                         <Image
                           src={product.imageSrc}
-                          alt={product.name}
+                          alt={`${product.name} - ${product.category} en servigreen`}
                           fill
                           className="object-contain object-center group-hover:scale-105 transition-transform duration-500"
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

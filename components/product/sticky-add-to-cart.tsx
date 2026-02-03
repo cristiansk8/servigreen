@@ -1,12 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useActionState } from 'react';
 import { ShoppingBag } from 'lucide-react';
 import { Product, ProductVariant } from 'lib/shopify/types';
 import { addItem } from 'components/cart/actions';
 import { useProduct } from 'components/product/product-context';
 import { useCart } from 'components/cart/cart-context';
-import { useFormState as useActionState } from 'react-dom';
 import Price from 'components/price';
 
 interface StickyAddToCartProps {

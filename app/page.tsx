@@ -12,14 +12,13 @@ import {
   getProducts,
   getCollections,
   getHomeHero,
-  getHomeSlides,
-  getHomeAnnouncement
+  getHomeSlides
 } from 'lib/shopify';
 import { CategorySliderSkeleton, ProductGridSkeleton } from '@/components/ui/skeleton';
 
 export const metadata = {
   description:
-    'Juan Becerra - Marroquinería de lujo y accesorios de cuero premium. Elegancia artesanal en cada pieza.',
+    'servigreen - Vivero de plantas, bonsáis y productos de jardinería. Transforma tu espacio con naturaleza.',
   openGraph: {
     type: 'website'
   }
@@ -50,16 +49,7 @@ async function CategorySectionWrapper() {
 }
 
 async function AnnouncementBarWrapper() {
-  const announcement = await getHomeAnnouncement();
-  if (!announcement) {
-    return <AnnouncementBar />;
-  }
-  return (
-    <AnnouncementBar
-      text={announcement.text || undefined}
-      enabled={announcement.enabled}
-    />
-  );
+  return <AnnouncementBar />;
 }
 
 async function HeroSectionWrapper() {

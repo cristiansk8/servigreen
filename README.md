@@ -1,11 +1,11 @@
-# Juan Becerra - Tienda E-commerce Integrada
+# servigreen - Tienda E-commerce Integrada
 
-Tienda de e-commerce personalizada que combina el diseño elegante de Juan Becerra con la funcionalidad completa de Shopify.
+Tienda de e-commerce personalizada que combina la belleza de las plantas y jardinería con la funcionalidad completa de Shopify.
 
 ## 🎯 Características
 
 ### ✅ Diseño Personalizado
-- **Marca Juan Becerra**: Paleta de colores, tipografías y estética de lujo
+- **Marca servigreen**: Paleta de colores verdes, tipografías y estética natural
 - **Componentes personalizados**: Hero, categorías, productos destacados, newsletter
 - **Fuentes exclusivas**: Belleza (serif) y Moderat (sans-serif)
 - **Responsive**: Diseño adaptable a todos los dispositivos

@@ -38,7 +38,7 @@ export function RecentlyViewed({ currentProductId }: { currentProductId?: string
                 {product.featuredImage && (
                   <Image
                     src={product.featuredImage.url}
-                    alt={product.title}
+                    alt={`${product.title} - Producto visto recientemente en servigreen`}
                     fill
                     className="object-cover object-center image-hover-zoom"
                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"

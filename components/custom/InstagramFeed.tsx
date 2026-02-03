@@ -11,13 +11,13 @@ export default function ElfsightInstagramFeed() {
           Síguenos en Instagram
         </h2>
         <a
-          href="https://www.instagram.com/juanbecerra.co/"
+          href="https://www.instagram.com/servigreen.sa/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 font-moderat text-base sm:text-lg text-white/80 hover:text-white transition-colors duration-300"
         >
           <Instagram className="h-6 w-6" />
-          @juanbecerra.co
+          @servigreen.sa
         </a>
       </div>
 

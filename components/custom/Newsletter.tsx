@@ -53,7 +53,7 @@ export default function Newsletter() {
         </h2>
         
         <p className="font-moderat text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto mb-10">
-          Recibe las últimas noticias, colecciones y ofertas especiales directamente en tu bandeja de entrada.
+          Recibe consejos de jardinería, nuevas plantas y ofertas especiales directamente en tu bandeja de entrada.
         </p>
 
         <div className="mt-10 mx-auto max-w-xl">
@@ -78,7 +78,7 @@ export default function Newsletter() {
           </div>
           
           <p className="font-moderat text-xs text-gray-500 mt-4 leading-relaxed">
-            Al suscribirte, aceptas recibir correos de Juan Becerra. Puedes cancelar en cualquier momento.
+            Al suscribirte, aceptas recibir correos de servigreen. Puedes cancelar en cualquier momento.
           </p>
         </div>
       </div>

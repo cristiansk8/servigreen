@@ -73,14 +73,14 @@ export function ProductDescriptionCustom({ product }: { product: Product }) {
     {
       title: 'Descripción',
       icon: <Shield className="h-5 w-5" />,
-      content: product.description || 'Producto de alta calidad artesanalmente elaborado con los mejores materiales.'
+      content: product.description || 'Planta de alta calidad cuidada con esmero para tu hogar o jardín.'
     },
     {
       title: 'Envío y Entrega',
       icon: <Truck className="h-5 w-5" />,
       content: (
         <ul className="space-y-2">
-          <li>• Envío gratis en compras superiores a $150.000 COP</li>
+          <li>• Envío gratis en compras superiores a $120 USD</li>
           <li>• Entrega en 3-5 días hábiles en Bogotá</li>
           <li>• Entrega en 5-7 días hábiles en el resto del país</li>
           <li>• Seguimiento en tiempo real de tu pedido</li>

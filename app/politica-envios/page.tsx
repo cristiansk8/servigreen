@@ -81,7 +81,7 @@ export default function PoliticaEnvios() {
               <li>Valor total del pedido</li>
             </ul>
             <p className="mb-4 bg-green-50 border-l-4 border-green-500 p-4">
-              <strong>Envío Gratis:</strong> Todos los pedidos superiores a $150.000 COP califican para envío gratuito a nivel nacional.
+              <strong>Envío Gratis:</strong> Todos los pedidos superiores a $120 USD califican para envío gratuito a nivel nacional.
             </p>
           </section>
 

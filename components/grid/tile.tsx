@@ -25,7 +25,7 @@ export function GridTileImage({
       {src ? (
         <Image
           src={src}
-          alt={alt || ''}
+          alt={alt || 'Imagen de producto en servigreen'}
           fill
           className={clsx('object-cover object-center', {
             'transition duration-300 ease-in-out group-hover:scale-105': isInteractive

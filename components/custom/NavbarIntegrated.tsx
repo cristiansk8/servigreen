@@ -13,9 +13,9 @@ import SearchComponent from 'components/layout/navbar/search';
 // IMPORTANTE: Verificar que estas colecciones existan en Shopify con estos handles exactos
 // Ajustar los handles según las colecciones reales en tu tienda Shopify
 const navLinks = [
-  { href: "/search/todos", text: "Tienda", highlight: false, hasDropdown: false },
+  { href: "/search", text: "Tienda", highlight: false, hasDropdown: false },
   { href: "/search", text: "Categorías", highlight: false, hasDropdown: true },
-  { href: "/search/todos", text: "Sale", highlight: true, hasDropdown: false },
+  { href: "/search", text: "Sale", highlight: true, hasDropdown: false },
 ];
 
 interface NavbarIntegratedProps {

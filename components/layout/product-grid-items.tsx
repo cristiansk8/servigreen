@@ -17,7 +17,7 @@ export default function ProductGridItems({ products }: { products: Product[] }) 
             >
               <div className="relative h-full w-full aspect-[4/5]">
                 <GridTileImage
-                  alt={product.title}
+                  alt={`${product.title} - Producto disponible en servigreen`}
                   src={product.featuredImage?.url}
                 />
                 {/* Badge de Agotado */}

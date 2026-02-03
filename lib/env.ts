@@ -9,8 +9,8 @@ const requiredEnvVars = [
 ] as const;
 
 const optionalEnvVars = {
-  COMPANY_NAME: 'Juan Becerra',
-  SITE_NAME: 'Juan Becerra - Marroquinería de Lujo',
+  COMPANY_NAME: 'servigreen',
+  SITE_NAME: 'servigreen | Vivero Online',
   NEXT_PUBLIC_VERCEL_URL: 'localhost:3000'
 } as const;
 

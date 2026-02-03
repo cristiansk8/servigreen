@@ -7,7 +7,7 @@ const badges = [
   {
     icon: Truck,
     title: 'Envío Gratis',
-    description: 'En compras >$150.000'
+    description: 'En compras >$120 USD'
   },
   {
     icon: RefreshCcw,
@@ -47,9 +47,9 @@ export function TrustBadges() {
             }}
           >
             <div className="mb-3 relative">
-              <div className="absolute inset-0 bg-[#620c0b]/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="relative bg-gray-50 p-3 rounded-full group-hover:bg-[#620c0b]/5 transition-colors duration-300">
-                <Icon className="h-6 w-6 text-[#620c0b] group-hover:scale-110 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-[#2d7a3e]/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="relative bg-gray-50 p-3 rounded-full group-hover:bg-[#2d7a3e]/5 transition-colors duration-300">
+                <Icon className="h-6 w-6 text-[#2d7a3e] group-hover:scale-110 transition-transform duration-300" />
               </div>
             </div>
             <h4 className="font-moderat text-xs uppercase font-semibold text-gray-900 mb-1 tracking-wider">
