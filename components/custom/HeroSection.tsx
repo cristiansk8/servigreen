@@ -52,6 +52,7 @@ export default function HeroSection({
             priority
             sizes="100vw"
             quality={90}
+            fetchPriority="high"
           />
         </div>
         {/* Dark overlay */}
