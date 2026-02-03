@@ -16,7 +16,7 @@ type HeroSectionProps = {
 export default function HeroSection({
   title = 'BIENVENIDOS A SERVIGREEN',
   description = 'Descubre nuestra selección de plantas, bonsáis y productos de jardinería.\nTransforma tu espacio con naturaleza.',
-  image = '/black-days-banner.webp',
+  image = 'https://images.unsplash.com/photo-141687957682-63fb69739953?w=1920&q=80',
   buttonText = 'Explorar productos',
   buttonText2 = 'Ver categorías',
   buttonUrl = '/search/todos',
